@@ -1,6 +1,7 @@
 # Nutrition Chatbot
 
 This repository contains a Nutrition Chatbot built using Streamlit, LangChain, and the USDA Food Data Central API. The chatbot helps users retrieve nutritional information about various food items and provides detailed information on their nutritional content and fitness-related benefits.
+You can access live application from [here](http://144.24.135.140:8010/)
 
 ## Features
 
