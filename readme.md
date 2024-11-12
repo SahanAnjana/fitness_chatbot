@@ -29,8 +29,8 @@ This repository contains a Nutrition Chatbot built using Streamlit, LangChain, a
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/nutrition-chatbot.git
-cd nutrition-chatbot
+git clone https://github.com/SahanAnjana/fitness_chatbot.git
+cd fitness_chatbot
 ```
 
 ### Install Requirements
