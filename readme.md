@@ -19,6 +19,19 @@ You can access live application from [here](http://144.24.135.140:8010/)
 - **USDA Food Data Central API**: For retrieving food nutritional information.
 - **Docker**: For easy deployment in a containerized environment.
 
+## How It Works
+1. **User Input**: Users ask the chatbot about food items.
+2. **Food Name Extraction**: The system extracts the food name using the spaCy NLP model.
+3. **Data Retrieval**: Nutritional information for the food item is retrieved from the USDA API.
+4. **Response Generation**: LangChain Groq generates a detailed, fitness-related response based on the retrieved nutritional data.
+5. **Interactive Chat**: The chatbot responds in a conversational format, with responses streamed word-by-word for a smooth user experience.
+
+## Live Application
+
+You can access the live version of the application at:
+
+[Fitness and Nutrients RAG application](http://144.24.135.140:8010/)
+
 ## Setup
 
 ### Prerequisites
