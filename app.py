@@ -9,9 +9,9 @@ import streamlit as st
 import time  # to create the streaming effect
 
 # Set up API keys and environment
-API_KEY = 'BWbYoawu0cdbkBnX6uqdeVUFd9Y4rdc3fV6k6hYy'
+API_KEY = os.getenv('API_KEY')
 BASE_URL = f'https://api.nal.usda.gov/fdc/v1/foods/search?api_key={API_KEY}'
-os.environ["GROQ_API_KEY"] = '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'
+os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
 
 # Load NLP model for food name extraction
 nlp = spacy.load("en_core_web_sm")
