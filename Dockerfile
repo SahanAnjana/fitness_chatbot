@@ -14,8 +14,6 @@ RUN pip install -U spacy
 RUN python -m spacy download en_core_web_sm
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENV GROQ_API_KEY=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
-ENV API_KEY=BWbYoawu0cdbkBnX6uqdeVUFd9Y4rdc3fV6k6hYy
 ENV STREAMLIT_SERVER_PORT=8010
 ENV STREAMLIT_SERVER_ADDRESS="0.0.0.0"
 
